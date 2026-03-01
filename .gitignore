@@ -1,7 +1,0 @@
-*.code-workspace
-*.uefnproject
-*.uplugin
-/Content/__ExternalActors__
-/Content/__ExternalObjects__
-/Content/*.uasset
-/Content/*.umap

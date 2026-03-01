@@ -1,0 +1,64 @@
+{
+	"fileVersion": 15,
+	"title": "Kavko1v1",
+	"description": "",
+	"keyArt": "",
+	"docsUrl": "",
+	"apiAccess": "Private",
+	"compatibilityVersion": "39.50",
+	"requiredRedirectorStartingVersion": "39.50.51043566",
+	"editorPermissions": [],
+	"epicApp": "",
+	"sortPriority": 0,
+	"featureSet": "",
+	"plugins": [
+		{
+			"name": "Kavko1v1",
+			"bIsRoot": true,
+			"bIsPublic": false
+		}
+	],
+	"dataSets":
+	{
+		"matchmaking":
+		{
+			"maxPlayers": 2,
+			"maxTeamCount": 2,
+			"maxTeamSize": 2,
+			"maxSocialPartySize": 2,
+			"allowJoinInProgress": true,
+			"allowSquadFillOption": false,
+			"islandQueuePrivacy": "Unrestricted",
+			"minPlayers": 1,
+			"overtimePlayerTarget": 2,
+			"queueMainDuration": 5,
+			"queueOvertimeDuration": 5,
+			"useSkillBasedMatchmaking": false,
+			"ratingType": "",
+			"version": 1
+		},
+		"experimental":
+		{
+			"sceneGraph":
+			{
+				"bIsSceneGraphSystemAllowed": true,
+				"bEnableOneFilePerEntity": false
+			},
+			"personaDevice":
+			{
+				"bEnablePersonaDevice": false
+			},
+			"version": 1
+		}
+	},
+	"bindings":
+	{
+		"projectId": "ec89b56f-476d-40c8-748b-a78bff92bb98",
+		"modules":
+		{
+			"Kavko1v1": "9a9ffb6c-422f-f829-f549-66b592edce55"
+		},
+		"bSuppressAutomaticVersePathAssignment": false,
+		"projectVersePath": "/kavkofn@fortnite.com/Kavko1v1"
+	}
+}

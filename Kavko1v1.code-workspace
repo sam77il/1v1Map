@@ -1,0 +1,56 @@
+{
+    "folders": [
+        {
+            "name": "/kavkofn@fortnite.com/Kavko1v1",
+            "path": "C:/Users/Admin/Documents/Fortnite Projects/Kavko1v1/Content"
+        },
+        {
+            "name": "/kavkofn@fortnite.com/Kavko1v1 (Assets)",
+            "path": "C:/Users/Admin/AppData/Local/UnrealEditorFortnite/Saved/VerseProject/Kavko1v1/Kavko1v1-Assets"
+        },
+        {
+            "name": "vproject - DO NOT MODIFY",
+            "path": "C:/Users/Admin/AppData/Local/UnrealEditorFortnite/Saved/VerseProject/Kavko1v1/vproject"
+        },
+        {
+            "name": "/Verse.org",
+            "path": "C:/Users/Admin/AppData/Local/UnrealEditorFortnite/Saved/VerseProject/Kavko1v1/Verse"
+        },
+        {
+            "name": "/UnrealEngine.com",
+            "path": "C:/Users/Admin/AppData/Local/UnrealEditorFortnite/Saved/VerseProject/Kavko1v1/UnrealEngine"
+        },
+        {
+            "name": "/Fortnite.com",
+            "path": "C:/Users/Admin/AppData/Local/UnrealEditorFortnite/Saved/VerseProject/Kavko1v1/Fortnite"
+        }
+    ],
+    "settings": {
+        "files.exclude": {
+            "**/*.uasset": true,
+            "**/*.umap": true,
+            "**/*.png": true,
+            "**/*.jpg": true,
+            "**/*.tga": true,
+            "_INT": true,
+            "**/*.vproject": true,
+            "__ExternalActors__": true,
+            "__ExternalObjects__": true,
+            "Collections": true,
+            "Developers": true
+        },
+        "workbench.colorTheme": "Verse (Dark)",
+        "editor.acceptSuggestionOnEnter": "off"
+    },
+    "launch": {
+        "version": "0.2.0",
+        "configurations": [
+            {
+                "name": "Verse Debug",
+                "type": "verse",
+                "request": "attach",
+                "debugServer": 1961
+            }
+        ]
+    }
+}
