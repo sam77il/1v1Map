@@ -29,13 +29,20 @@ game_manager := class(creative_device):
 
     OnBegin<override>()<suspends>:void=
         InitiatePlayerSpawners()
+        GetPlayspace().PlayerRemovedEvent().Subscribe(OnPlayerLeft)
         EliminationManager.EliminatedEvent.Subscribe(OnPlayerEliminated)
+
+    OnPlayerLeft(Agent : agent):void=
+        for (I := 0..xPlayers.Length - 1):
+            if (xPlayers[I].Agent = Agent):
+                if (Result := xPlayers.RemoveElement[I]):
+                    set xPlayers = Result
 
     InitiatePlayerSpawners():void=
         for (PlayerSpawner : PlayerSpawners):
-            PlayerSpawner.SpawnedEvent.Subscribe(OnPlayerSpawned)
+            PlayerSpawner.SpawnedEvent.Subscribe(OnPlayerJoined)
 
-    OnPlayerSpawned(Agent : agent):void=
+    OnPlayerJoined(Agent : agent):void=
         xPlayer : xplayer = xplayer{Agent := Agent}
         set xPlayers += array{xPlayer}
         MaterialItemGranter.GrantItemIndex(xPlayer.Agent, 0)
